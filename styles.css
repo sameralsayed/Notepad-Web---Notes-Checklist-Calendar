@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #f8f9fa;
+}
+
+.card {
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    transition: all 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.note-card {
+    cursor: pointer;
+}
+
+.checklist-item {
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background: #4285f4;
+}
+
+.modal-content {
+    border-radius: 16px;
+}
